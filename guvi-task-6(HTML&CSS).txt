@@ -1,0 +1,366 @@
+1.Debug
+<!DOCTYPE html>
+ <html lang="en">
+    <head>
+        <title>Document
+            <body>(wrongly placed)
+                guvi
+        </title>
+    </head>
+<body>(placed correctly)
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+</div>(missing tag)
+</div>(missing tag)
+        </body>
+    </html>
+-----------------------------------------------------------------------------------------------------------------------
+2.repeated 1st question...
+---------------------------------------------------------------------------------------------------------------------------
+3.contact form
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <div class="container">
+    <h1><center> Welcome to the Guvi institution</center></h1>
+    <h2><strong><u>Contact Us</u></strong></h2>
+   
+        <Strong><h3>Mobile:</Strong>1234567890</h3>
+       <h3><strong>Address:</strong>  no.15, Anna nagar, Chennai-08</h3>   		// External stylesheet used form tag is used to create form
+        <h3> <Strong>Gmail:</Strong>
+        <a href="#"> <i>sangeetha123@gmail.com</i></a></h3>
+    
+        <h2><strong><u>Personal details to get in connect</u></strong></h2>
+        <form>
+            <h3>
+            <label for="">Name</label>
+            <input type="text" placeholder="type ur name"><br><br>
+            <label for="">E-mail</label>
+            <input type="email"placeholder="type ur email"><br><br>
+            <label for="">Mobile number</label>
+            <input type="number"placeholder="type ur mobile number"><br><br>
+            <input type="submit"value="submit">
+            </h3>
+
+        </form>
+        </div>
+        
+   
+
+</body>
+</html>
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------4.Ordered and Unordered List
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+   
+</head>
+<body>
+    <ul>
+        <li>Programming languages</li>
+        <ul type="circle">
+        <li>Javascript</li>					// ul and ol and li tags are nestedly used to get the output.
+        <ol type="a">
+        <li>Angular</li>
+        <li>React</li>
+        <li>Vue.js</li>
+    </ol>
+    </ul>
+        <ul type="circle">
+        <li>python</li>
+        <ol type="a">
+        <li>Django framework</li>
+        <li>Flask frameowrk</li>
+        
+    </ol>
+    </ul>
+    <ul type="circle">
+        <li>Java</li>
+        <ol type="a">
+        <li>Spring</li>
+        <li>Maven</li>
+        <li>Hibernate</li>
+    </ol>
+    </ul>
+    <li>Database </li>
+   <ul type="circle">
+        <li>MySQL</li>
+        <li>MongoDB</li>
+        <li>Cansandra</li>    
+   </ul>   
+   </ul>
+</body>
+</html>
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+5.Google Link
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">		//href tag to specify the google link.
+    <title>Google Link</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body >
+<a href="https://google.com">https://google.com</a>
+</body>
+</html>
+----------------------------------------------------------------------------------------------------------------------------------------------    
+6.Radio buttons
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>radio form</title>
+   <link rel="stylesheet" href="style.css">
+</head>										//External stylesheet used and radio tags in form is used.
+<body>
+    <div class="container">
+        <h2><center>Job details</center></h2>
+    <form>
+        <u><h3> <label for="">Job Type</label></h3></u>
+        <input type="radio"name="job">Salaried Job<br><br>
+        <input type="radio"name="job">Own Business
+    </form>
+</div>
+</body>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+7..Adhar and pan card
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aadhar and pan</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container1"
+     <form>
+        <h1><center>PAN Card form</center></h1>
+            <h3>
+            <label for="">Applicant Name</label>
+            <input type="text" placeholder="type ur name"><br>
+            <label for="">Applicant father name</label>
+            <input type="text"placeholder="type ur email"><br>			// external stylesheet used and the form tags are used that are necessarily needed in aadhar and pan cards.
+            <label for="">Date of Birth</label>
+            <input type="date"><br>
+            <label for="">PAN number</label>
+            <input type="text" placeholder="type ur name"><br><br>
+              <center><input type="submit"value="submit"></center>
+            </h3>
+
+        </form>
+    </div>
+    <div class="container1"
+    <form>
+        <h1><center>AADHAR Card form</center></h1>
+            <h3>
+            <label for="">Applicant Name</label>
+            <input type="text" placeholder="type ur name"><br>
+            <label for="">Adress</label>
+             <textarea name="" cols="50"rows="2" placeholder="Type something"></textarea><br>
+            <label for="">Date of Birth</label>
+            <input type="date"><br>
+             <label for="">Gender</label><br>
+        <input type="radio"name="male">Male<br>
+        <input type="radio"name="female">Female<br>
+        <input type="radio"name="Not intereseted">Not interested to specify<br>
+          <label for="">AADHAR number</label>
+            <input type="text" ><br> <br>   
+           <center><input type="submit"value="submit"></center> 
+            </h3>
+
+        </form>
+        
+    </div>
+
+</body>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+8.Table
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+   </head>
+<body>
+    <center>
+        <h1>Table</h1>
+    <table border="2" width="50%" cellpadding="4" >
+        <tr>
+            <th>Customer</th>
+            <th colspan="3">Items</th>
+            <th colspan="5">Payments</th>			//table tag is nestedly used ...rowspan and colspan is used ..
+        </tr>
+         <tr>
+            <td rowspan="5">Customer </td>
+          
+            <tr>
+                <td>item 1</td>
+                <td>5</td>
+                <td>$400.00</td>
+                <td rowspan="2">12<sup>th</sup> sep 2018</td>
+                <td rowspan="2">$3,000.00</td>
+            </tr>
+             <tr>
+                <td>Item 2</td>
+                <td>10</td>
+                <td>$200.00</td>
+                 <td  rowspan="2">18<sup>th</sup> sep 2018</td>
+                <td rowspan="2">$2,000.00</td>
+            </tr>
+             <tr>
+                <td >Item 3</td>
+                <td>2</td>
+                <td>$500.00</td>
+            </tr>
+             </tr>
+        </table>
+
+    </center>
+</body>
+</html>
+----------------------------------------------------------------------------------------------------------------------------------------------------
+9.Input elements:
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+--------------------------------------------------------------------------------------------------------------------------------------------------
+10.Single Line
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">		//without CSS ,formatting HTML tags are used to style the single line.
+    <title>Single line</title>
+</head>
+<body>
+    <h1><center><u><i>HTML & CSS is awesome</i></u></center></h1>
+</body>
+</html>
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11.Input elements
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input elements</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <div class="container">
+        <h2><center>Input elements</center></h2>
+   <form>
+            
+            <label for="">Name</label>
+            <input type="text" placeholder="type ur name"><br><br>			//External stylesheet is used and all form input elements are used.
+            <label for="">E-mail</label>
+            <input type="email"placeholder="type ur email"><br><br>
+            <label for="">Mobile number</label>
+            <input type="number"placeholder="type ur mobile number"><br><br>
+            <label for="">Enter the date of birth</label>
+        <input type="date"><br><br>
+            <label for="">Job Type</label><br><br>
+        <input type="radio"name="male">Male<br>
+        <input type="radio"name="female">Female<br>
+        <input type="radio"name="Not intereseted">Not interested to specify<br><br>
+        <label for="">Languages known</label><br><br>
+            <input type="checkbox"name="Languages">Tamil<br>
+        <input type="checkbox"name="Languages">English<br>
+        <input type="checkbox"name="Languages">Telugu<br>
+        <input type="checkbox"name="Languages">Hindi<br><br>
+        <label for="">Country living</label>
+        <select name="Country"id="">
+            <option value="select">Select the country</option>
+            <option value="India">India</option>
+            <option value="Australia">Australia</option>
+            <option value="Germany">Germany</option>
+        </select><br><br>
+        <label for="">Enter the bio-data</label>
+        <textarea name="" cols="30"rows="10" placeholder="Type something"></textarea><br><br>
+         <input type="submit"value="submit">
+            <input type="reset"value="reset">
+        
+
+        </form>
+        </div>
+        
+   
+
+</body>
+</html>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Css file
+---------
+
+.container
+{
+    border: double;
+    border-color:black;
+    box-sizing: border-box;
+    margin: 30px 40px auto 30px;
+    padding:10px 30px 10px 30px;
+    background-color:rgba(128, 75, 66, 0.7);							//CSS file that is created for all programs.
+    color: rgb(221, 208, 192);//
+}
+body{
+    
+    background-image: url('images.1.webp');
+    background-attachment: fixed;
+    background-size: cover;
+   
+   
+}
+.container1
+{
+     text-align:justify;
+    border: double;
+    border-color:black;
+    box-sizing: border-box;
+    margin: 60px 400px 5px 500px;
+    padding:10px 30px 3px 30px;
+    background-color:rgba(128, 75, 66, 0.7);
+    color: rgb(221, 208, 192);
+}
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
